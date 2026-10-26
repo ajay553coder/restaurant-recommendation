@@ -1,0 +1,27 @@
+# Python Byte-code & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Model artifacts (optional to ignore large models)
+# model/*.pkl
+
+# Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# User specific dataset downloads (except sample)
+data/zomato.csv
+data/zomato_restaurants.csv
+data/*.zip

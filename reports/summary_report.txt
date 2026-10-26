@@ -1,0 +1,39 @@
+======================================================================
+DineWise ML — DWDM CAPSTONE PROJECT SUMMARY REPORT
+Personalized Restaurant Discovery Using Machine Learning
+======================================================================
+
+1. DATASET & PREPROCESSING SUMMARY
+----------------------------------------
+Original Records:       51744
+Duplicate Rows Removed: 39566
+Clean Unique Entities:  12178
+Rated Restaurants:      9064
+Unrated Restaurants:    3114
+Median Cost Imputed:    Rs. 400.0
+
+2. ALGORITHM A: KNN RECOMMENDATION ENGINE
+----------------------------------------
+Algorithm:              k-Nearest Neighbors (NearestNeighbors)
+Metric:                 Euclidean Distance on Normalized Feature Space
+Features:               Cost, Rating, Online Order, Table Booking, Cuisines, Locations, Rest Types
+Constraints Handled:    Budget, Minimum Rating, Location Preference, Cuisine Preference
+
+3. ALGORITHM B: K-MEANS CLUSTERING
+----------------------------------------
+Number of Clusters (k): 4
+Silhouette Score:       0.1011
+
+4. ALGORITHM C: DECISION TREE CLASSIFIER (RATING CATEGORY)
+----------------------------------------
+Decision Tree Accuracy: 51.52%
+Decision Tree F1-Score: 0.5058
+Decision Tree Precision:0.5299
+Decision Tree Recall:   0.5152
+
+5. SYLLABUS COMPARISON: LOGISTIC REGRESSION
+----------------------------------------
+Logistic Reg. Accuracy: 53.50%
+Logistic Reg. F1-Score: 0.5292
+
+Data Leakage Prevention: Verified (Original rating strictly excluded from model inputs).
